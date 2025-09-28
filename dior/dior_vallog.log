@@ -1,0 +1,27 @@
+Ultralytics 8.3.170 🚀 Python-3.10.18 torch-2.6.0+cu126 CUDA:0 (NVIDIA TITAN RTX, 24026MiB)
+YOLO12m summary (fused): 169 layers, 20,121,103 parameters, 0 gradients, 67.2 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1389.4±719.8 MB/s, size: 142.9 KB)
+                   all      11738     124443      0.398      0.343      0.314      0.206
+              airplane        705       8212      0.842      0.625      0.706      0.418
+               airport        657        666      0.413      0.623      0.355      0.203
+         baseballfield       1312       3433      0.896      0.648      0.713      0.601
+       basketballcourt        704       2149      0.462      0.346      0.345      0.236
+                bridge       1302       2604     0.0828      0.071     0.0234     0.0132
+               chimney        448       1032      0.486      0.704      0.511      0.284
+                   dam        502        537     0.0377      0.095     0.0233    0.00893
+          service-area        565       1085    0.00667   0.000922   0.000405   9.76e-05
+          toll-station        634        688      0.279      0.477      0.418      0.264
+                harbor        814       3140      0.504      0.316      0.274      0.152
+             golffield        491        575     0.0238     0.0383    0.00356    0.00146
+      groundtrackfield       1322       1880       0.65      0.838      0.783      0.543
+              overpass       1099       1778     0.0644      0.202     0.0296     0.0115
+                  ship       1400      35108      0.875      0.453      0.619      0.385
+               stadium        619        673      0.056      0.052     0.0413     0.0132
+           storagetank        893      23361      0.872      0.234      0.384      0.229
+           tenniscourt       1347       7360      0.611      0.725       0.73      0.611
+          trainstation        501        509     0.0606      0.122     0.0288     0.0102
+               vehicle       3306      26655      0.718      0.256       0.29      0.133
+              windmill        809       2998     0.0291      0.028    0.00898    0.00286
+Speed: 0.3ms preprocess, 10.9ms inference, 0.0ms loss, 1.2ms postprocess per image
+Saving /data2/ccu6/yolo/ultralytics/runs/detect/val29/predictions.json...
+Results saved to [1m/data2/ccu6/yolo/ultralytics/runs/detect/val29[0m
