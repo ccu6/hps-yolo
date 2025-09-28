@@ -1,0 +1,17 @@
+Ultralytics 8.3.170 🚀 Python-3.10.18 torch-2.6.0+cu126 CUDA:0 (NVIDIA TITAN RTX, 24026MiB)
+YOLO12m summary (fused): 169 layers, 20,113,393 parameters, 0 gradients, 67.2 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 828.3±302.0 MB/s, size: 19.4 KB)
+                   all        293        858      0.725      0.766      0.781      0.369
+              airplane         57        152      0.989          1      0.995       0.57
+                  ship         31         65      0.575      0.754      0.678      0.199
+           storagetank         14        126      0.851      0.545      0.789      0.228
+              baseball         60         92      0.966      0.957      0.971      0.595
+           tenniscourt         28        115      0.785      0.792      0.872      0.422
+            basketball         23         41      0.928      0.927      0.979       0.66
+      groundtrackfield         40         40       0.82        0.9      0.844      0.243
+                harbor         10         39       0.75      0.949       0.93      0.469
+                bridge         34         44          0          0    0.00268   0.000461
+               vehicle         41        144       0.59       0.84      0.753      0.308
+Speed: 1.2ms preprocess, 18.3ms inference, 0.0ms loss, 5.6ms postprocess per image
+Saving /data2/ccu6/yolo/ultralytics/runs/detect/val22/predictions.json...
+Results saved to [1m/data2/ccu6/yolo/ultralytics/runs/detect/val22[0m
